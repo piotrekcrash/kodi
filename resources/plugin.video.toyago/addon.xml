@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.toyago" name="ToyaGO" version="3.0.3" provider-name="piotrekcrash">
+<requires>
+  <import addon="xbmc.python" version="3.0.0"/>
+  <import addon="script.module.requests" version="2.22.0"/>
+  <import addon="script.module.beautifulsoup4" version="4.0.0"/>
+  <import addon="pvr.iptvsimple" optional="true"/>
+  <import addon="pvr.iptvarchive" optional="true"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+  <extension point="xbmc.service" library="service.py" start="startup" />
+<extension point="xbmc.addon.metadata">
+  <summary lang="pl">ToyaGO Kodi Video Plugin</summary>
+  <description lang="pl">ToyaGo</description>
+  <disclaimer lang="pl">Plugin ToyaGO dla Kodi</disclaimer>
+  <disclaimer lang="pl">Thanks for @WLS</disclaimer>
+  <language>pl</language>
+  <email>pch@int.pl</email>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+    <screenshot>resources\screenshot-03.png</screenshot>
+    <screenshot>resources\screenshot-04.png</screenshot>
+    <screenshot>resources\screenshot-05.png</screenshot>
+  </assets>
+  <news>
+  </news>
+</extension>
+</addon>
