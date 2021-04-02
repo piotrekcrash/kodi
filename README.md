@@ -1,0 +1,2 @@
+# kodi
+Kodi Addons Repository
