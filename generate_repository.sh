@@ -6,5 +6,6 @@ python3 create_repository.py --datadir=resources/ \
 	repositories/repository.kodiwpigulce.pl-1.0.1.zip \
 
 git add *
+git add -u
 git commit -m "$(date)"
 git push
