@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.piotrekcrash" name="piotrekcrash repository" version="1.0.5" provider-name="piotrekcrash">
+<addon id="repository.piotrekcrash" name="piotrekcrash repository" version="1.0.6" provider-name="piotrekcrash">
     <extension point="xbmc.addon.repository" name="piotrekcrash repository">
         <dir>
-            <info compressed="false">https://raw.githubusercontent.com/piotrekcrash/kodi/master/resources/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/piotrekcrash/kodi/master/resources/addons.xml.md5</checksum>
-            <datadir zip="true">https://github.com/piotrekcrash/kodi/raw/master/resources/</datadir>
+            <info compressed="false">https://github.com/piotrekcrash/kodi/raw/main/resources/addons.xml</info>
+            <checksum>https://github.com/piotrekcrash/kodi/raw/main/resources/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/piotrekcrash/kodi/raw/main/resources/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
